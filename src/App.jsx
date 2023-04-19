@@ -1,11 +1,10 @@
-import Navbar from "./navbar";
+import Navbar from './pages/navbar'
 
 function App() {
   return (
-    <div className="App">
-      <Navbar />
-      <div className='m-auto text-center'>
-        <p>My Resume</p>
+    <div className="App bg-neutral-800">
+      <div className='max-w-5xl	m-auto'>
+        <Navbar />
       </div>
     </div>
   );
