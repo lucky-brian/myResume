@@ -1,10 +1,12 @@
 import Navbar from './pages/navbar'
+import Slide from './pages/slide';
 
 function App() {
   return (
-    <div className="App bg-neutral-800">
-      <div className='max-w-5xl	m-auto'>
+    <div className="App bg-neutral-800 font-mono text-white">
+      <div>
         <Navbar />
+        <Slide />
       </div>
     </div>
   );
