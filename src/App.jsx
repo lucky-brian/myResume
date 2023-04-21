@@ -1,5 +1,6 @@
 import Navbar from './pages/navbar'
 import Slide from './pages/slide';
+import About from './pages/about';
 
 function App() {
   return (
@@ -7,6 +8,7 @@ function App() {
       <div>
         <Navbar />
         <Slide />
+        <About />
       </div>
     </div>
   );
