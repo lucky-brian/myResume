@@ -1,4 +1,5 @@
 import resume from './resume.pdf'
+import { Link } from 'react-scroll'
 function Navbar() {
     return (
         <div>
@@ -10,20 +11,20 @@ function Navbar() {
                         </div>
                         <div className="sm:flex text-white hidden items-center">
                             <div className="mx-2 hover:text-gray-600">
-                                <a href='#aboutMe'><p>About</p></a>
+                                <Link to="aboutMe" spy={true} smooth={true} offset={50} duration={500}><p>About</p></Link>
                             </div>
                             <div className="mx-2 hover:text-gray-600">
-                                <a href='#experience'><p>Experience</p></a>
+                                <Link to="experience" spy={true} smooth={true} offset={50} duration={500}><p>Experience</p></Link>
                             </div>
                             <div className="mx-2 hover:text-gray-600">
-                                <a href='#skill'><p>Skill</p></a>
+                                <Link to="skill" spy={true} smooth={true} offset={50} duration={500}><p>Skill</p></Link>
                             </div>
                             <div className="mx-2 hover:text-gray-600">
-                                <a href='#contact'><p>Contact</p></a>
+                                <Link to="contact" spy={true} smooth={true} offset={50} duration={500}><p>Contact</p></Link>
                             </div>
                             <div className="mx-2">
                                 <a href={resume} target="_blank">
-                                    <div className="px-5 py-2 border border-indigo-600 hover:bg-gradient-to-r hover:from-blue-400 hover:to-blue-700">
+                                    <div className="px-5 py-2 transition ease-in-out delay-150 bg-blue-500 hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 duration-300">
                                         Resume
                                     </div>
                                 </a>
