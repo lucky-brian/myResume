@@ -16,7 +16,7 @@ function Contact() {
                     <p className="mt-5">facebook</p>
                 </div>
                 <div className="text-center mx-5">
-                    <a href="https://www.facebook.com/profile.php?id=100012682572273" target="_blank" >
+                    <a href="https://github.com/lucky-brian" target="_blank" >
                         <img src="/images/github.png" className="h-10 inline" alt="" />
                     </a>
                     <p className="mt-5">Github</p>
