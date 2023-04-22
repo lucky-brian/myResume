@@ -1,6 +1,10 @@
-import Navbar from './pages/navbar'
+import Navbar from './pages/navbar';
 import Slide from './pages/slide';
 import About from './pages/about';
+import Experience from './pages/experience';
+import Skill from './pages/skill';
+import Contact from './pages/contact';
+import Footer from './pages/footer';
 
 function App() {
   return (
@@ -9,6 +13,10 @@ function App() {
         <Navbar />
         <Slide />
         <About />
+        <Experience />
+        <Skill />
+        <Contact />
+        <Footer />
       </div>
     </div>
   );
