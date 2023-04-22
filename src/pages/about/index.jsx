@@ -2,7 +2,7 @@ import profile from '../../images/profile.png'
 function About() {
     return (
         <div id="aboutMe">
-            <section className="m-auto max-w-3xl py-20">
+            <section className="m-auto max-w-3xl py-40">
                 <div className="text-3xl font-bold flex justify-start items-center mb-8">
                     <div className='flex justify-center m-auto'>
                         <p>About</p><p className='text-blue-500 ml-2'>Me</p>

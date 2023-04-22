@@ -24,7 +24,7 @@ function Skill() {
     ]; 
 
     return (
-        <section className="m-auto max-w-3xl mx-5 md:m-auto py-20" id="skill">
+        <section className="m-auto max-w-3xl mx-5 md:m-auto py-40" id="skill">
             <div>
                 <p className="text-3xl font-bold text-center"><span className="text-blue-500">S</span>kill</p>
             </div>
